@@ -20,7 +20,7 @@ Introduction to programming and first set of assignments at Holberton School
 * How to find the right header to include in your source code when using a standard library function
 * How does the main function influence the return value of the program
 
-### Exercises
+### Trial questions
 
 [0-preprocessor](./0-preprocessor)
 ```
