@@ -6,7 +6,7 @@
  * Return: always 0;
  *
  */
-void alphabet(void)
+void print_alphabet(void)
 {
 	char i;
 
@@ -18,5 +18,6 @@ void alphabet(void)
 }
 int main (void)
 {
-	alphabet();
+	print_alphabet();
+	return 0;
 }
