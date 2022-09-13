@@ -8,13 +8,14 @@
  */
 int main()
 {
-	putchar('_\n');
-	putchar('p\n');
-	putchar('u\n');
-	putchar('t\n');
-	putchar('c\n');
-	putchar('h\n');
-	putchar('a\n');
-	putchar('r\n');
+	printf("_");
+	printf("p");
+	printf("u");
+	printf("t");
+	printf("c");
+	printf("h");
+	printf("a");
+	printf("r");
+	printf("\n");
 	return (0);
 }
