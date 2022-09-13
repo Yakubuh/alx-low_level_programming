@@ -6,7 +6,7 @@
  * Return: Always returns 0
  *
  */
-int main()
+int main(void)
 {
 	printf("_");
 	printf("p");
