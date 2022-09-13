@@ -1,25 +1,38 @@
-#include "main.h"
-/**
- * print_sign - main function
- *
- * @n: character to compare
- *
- * Return: 1 if positive, 0 if zero, -1 if negative
- *
- */
+#include<stdio.h>
 
-int print_sign(int n)
+
+int number(int num)
 {
-	if (n > 0)
-	{
-		_putchar('+');
-		return (1);
-	}
-	if (n == 0)
-	{
-		_putchar('0');
-		return (0);
-	}
-	_putchar('-');
-	return (-1);
+
+
+
+if (num == 0){
+
+printf("%d", 0);
+return 0;
+
 }
+else if (num >0){
+
+printf("%d", 1);
+
+return 1;
+
+}
+
+else{
+
+printf("-");
+return (-1);
+}
+
+}
+
+int main()
+{
+int num = 5;
+number(num);
+
+return 0;
+}
+
