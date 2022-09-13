@@ -8,13 +8,13 @@
  */
 void print_alphabet()
 {
-	char i;
+	int i;
 
 	for (i = 'a'; i <= 'z'; i++)
 	{
 		putchar( i);
 	}
-	putchar("\n");
+	putchar('\n');
 }
 int main (void)
 {
