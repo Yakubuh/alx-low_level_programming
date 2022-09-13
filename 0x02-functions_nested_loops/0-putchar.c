@@ -1,4 +1,4 @@
-#include"main.h"
+#include "holberton.h"
 
 /**
  * main - Entry point
@@ -6,15 +6,17 @@
  * Return: Always returns 0
  *
  */
-int main()
+int main(void)
 {
-	_putchar('_\n');
-	_putchar('p\n');
-	_putchar('u\n');
-	_putchar('t\n');
-	_putchar('c\n');
-	_putchar('h\n');
-	_putchar('a\n');
-	_putchar('r\n');
-	return 0;
+	_putchar('H');
+	_putchar('o');
+	_putchar('l');
+	_putchar('b');
+	_putchar('e');
+	_putchar('r');
+	_putchar('t');
+	_putchar('o');
+	_putchar('n');
+	_putchar('\n');
+	return (0);
 }
