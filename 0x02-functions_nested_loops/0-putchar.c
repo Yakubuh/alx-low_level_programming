@@ -1,5 +1,4 @@
-#include "yakubuh.h"
-#include<main.h>
+#include"main.h"
 
 /**
  * main - Entry point
@@ -9,13 +8,13 @@
  */
 int main()
 {
-	_putchar('y');
-	_putchar('a');
-	_putchar('k');
-	_putchar('u');
-	_putchar('b');
-	_putchar('u');
-	_putchar('h');
-	_putchar('\n');
+	_putchar('_\n');
+	_putchar('p\n');
+	_putchar('u\n');
+	_putchar('t\n');
+	_putchar('c\n');
+	_putchar('h\n');
+	_putchar('a\n');
+	_putchar('r\n');
 	return 0;
 }
