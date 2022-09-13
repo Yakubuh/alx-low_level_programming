@@ -1,3 +1,4 @@
+#include "main.h"
 #include "stdio.h"
 /**
  * _isalpha - main function
@@ -8,7 +9,7 @@
  *
  */
 
-int main(void)
+void  _isalpha(void)
 {
 
      char  c ='a';
@@ -21,5 +22,11 @@ int main(void)
 		return (0);
 
 	}
+}
+int main(vooid){
+
+	char a = 'b' ;
+	_isalpha(a);
+	return 0;
 }
 
