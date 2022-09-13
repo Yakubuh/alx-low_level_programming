@@ -1,4 +1,4 @@
-#include "main.h"
+#include "stdio.h"
 /**
  * _isalpha - main function
  *
@@ -8,11 +8,18 @@
  *
  */
 
-int _isalpha(int c)
+int main(void)
 {
+
+     char  c ='a';
+
 	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
 	{
 		return (1);
 	}
-	return (0);
+	else{
+		return (0);
+
+	}
 }
+
