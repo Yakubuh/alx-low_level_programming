@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include<main.h>
 
 
 int number(int num)
@@ -14,9 +14,9 @@ return 0;
 }
 else if (num >0){
 
-printf("%d", 1);
+printf("+");
 
-return 1;
+return (1);
 
 }
 
