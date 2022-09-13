@@ -1,25 +1,7 @@
-#include "holberton.h"
+#ifndef MAIN_H
+#define MAIN_H
 
-/**
- * main - Entry point
- *
- * Return: Always returns 0
- *
- */
 int main(void)
-{
-	_putchar('H');
-	_putchar('o');
-	_putchar('l');
-	_putchar('b');
-	_putchar('e');
-	_putchar('r');
-	_putchar('t');
-	_putchar('o');
-	_putchar('n');
-	_putchar('\n');
-	return (0);
-}
 void jack_bauer(void)
 void print_alphabet(void);
 void print_alphabet_x10(void);
@@ -31,3 +13,4 @@ int print_last_digit(int);
 void times_table(void);
 int add(int, int);
 void print_to_98(int n);
+#endif
