@@ -12,9 +12,9 @@ void print_alphabet()
 
 	for (i = 'a'; i <= 'z'; i++)
 	{
-		_putchar(i);
+		printf("%c", i);
 	}
-	_putchar('\n');
+	printf("\n");
 }
 int main (void)
 {
