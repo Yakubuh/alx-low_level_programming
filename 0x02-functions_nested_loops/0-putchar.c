@@ -1,4 +1,5 @@
 #include "yakubuh.h"
+#include<main.h>
 
 /**
  * main - Entry point
@@ -6,7 +7,7 @@
  * Return: Always returns 0
  *
  */
-int main(void)
+int main()
 {
 	_putchar('y');
 	_putchar('a');
@@ -16,5 +17,5 @@ int main(void)
 	_putchar('u');
 	_putchar('h');
 	_putchar('\n');
-	return (0);
+	return 0;
 }
