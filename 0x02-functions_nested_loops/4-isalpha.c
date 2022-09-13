@@ -1,5 +1,5 @@
 #include "main.h"
-#include "stdio.h"
+
 /**
  * _isalpha - main function
  *
@@ -9,10 +9,10 @@
  *
  */
 
-void  _isalpha(void)
+void _isalpha(char c )
 {
 
-     char  c ='a';
+
 
 	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
 	{
@@ -23,10 +23,13 @@ void  _isalpha(void)
 
 	}
 }
-int main(vooid){
 
-	char a = 'b' ;
-	_isalpha(a);
-	return 0;
+int main (){
+
+char a = 'b';
+
+_isalpha(a);
+
+return 0;
 }
 
