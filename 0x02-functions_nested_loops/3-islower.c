@@ -1,5 +1,4 @@
 #include"main.h"
-#include "stdio.h"
 /**
  * _islower - main function
  *
@@ -9,7 +8,7 @@
  *
  */
 
-int main()
+int main(void)
 {
  int c = 'c';
 	if (c >= 'a' && c <= 'z')
@@ -20,6 +19,7 @@ int main()
 	else{
 	return (0);
 	}
+	
 	return (0);
 }
 
