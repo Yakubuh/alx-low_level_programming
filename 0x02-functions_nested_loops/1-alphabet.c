@@ -1,5 +1,4 @@
-#include "holberton.h"
-#include "stdio.h"
+#include "main.h"
 
 /**
  * print_alphabet - prints alphabet
@@ -7,18 +6,13 @@
  * Return: always 0;
  *
  */
-
-int main (void)
+void print_alphabet(void)
 {
-	
 	char i;
 
 	for (i = 'a'; i <= 'z'; i++)
 	{
-		printf("%c",i);
-		printf(" ");
+		putchar(i);
 	}
-	printf("\n");
-	
-	return 0;
+	putchar('\n');
 }
