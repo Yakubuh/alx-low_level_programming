@@ -6,7 +6,7 @@
  * Return: always 0;
  *
  */
-void print_alphabet(void)
+void alphabet(void)
 {
 	char i;
 
@@ -15,4 +15,8 @@ void print_alphabet(void)
 		printf(i);
 	}
 	printf('\n');
+}
+int main (void)
+{
+	alphabet();
 }
