@@ -12,9 +12,9 @@ void alphabet(void)
 
 	for (i = 'a'; i <= 'z'; i++)
 	{
-		printf("%c"i);
+		printf("%c",i);
 	}
-	printf('\n');
+	printf("\n");
 }
 int main (void)
 {
