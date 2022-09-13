@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "stdio.h"
 
 /**
  * print_alphabet - prints alphabet
@@ -12,7 +12,7 @@ void print_alphabet(void)
 
 	for (i = 'a'; i <= 'z'; i++)
 	{
-		_putchar(i);
+		printf(i);
 	}
-	_putchar('\n');
+	printf('\n');
 }
