@@ -13,11 +13,11 @@ int main(void)
  int c = 'c';
 	if (c >= 'a' && c <= 'z')
 	{
-		return (1);
+		printf ("%d",1);
 	}
 
 	else{
-	return (0);
+	printf ("%d", 0);
 	}
 	
 	return (0);
