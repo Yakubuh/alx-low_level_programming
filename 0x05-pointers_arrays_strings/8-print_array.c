@@ -20,21 +20,32 @@ void print_array(int *a, int n)
 }
 
 
+
 /**
- * main - check the code for Holberton School students.
+ * main - check the code for main School students.
  *
  * Return: Always 0.
  */
 int main(void)
 {
-	int array[6];
+	int n;
 
-	array[0] = 98;
-	array[1] = 402;
-	array[2] = -198;
-	array[3] = 298;
-	array[4] = -1024;
-	array[5] = -200003;
-	print_array(array, 6);
+	n = _atoi("98");
+	printf("%d\n", n);
+	n = _atoi("-402");
+	printf("%d\n", n);
+	n = _atoi("          ------++++++-----+++++--98");
+	printf("%d\n", n);
+	n = _atoi("214748364");
+	printf("%d\n", n);
+	n = _atoi("0");
+	printf("%d\n", n);
+	n = _atoi("Suite 402");
+	printf("%d\n", n);
+	n = _atoi("         +      +    -    -98 Battery Street; San Francisco, CA 94111 - USA             ");
+	printf("%d\n", n);
+	n = _atoi("---++++ -++ Sui - te -   402 #cisfun :)");
+	n = _atoi("-++ Sui  te    402 #cisfun :)");
+	printf("%d\n", n);
 	return (0);
 }
