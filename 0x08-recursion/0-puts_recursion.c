@@ -3,13 +3,15 @@
  * _puts_recursion - uses recursion
  * @s: string to recurse through
  */
-void _puts_recursion(char *s)
+
+
+int main (void)
 {
-	if (*s)
-	{
-		_putchar(*s);
-		_puts_recursion(++s);
-	}
-	else
-		_putchar('\n');
+	
+char name = "Puts with recursion";
+	_puts_recursion("%s",  name);
+	
+	_putchar('\n');
+	
+	return 0;
 }
