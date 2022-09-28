@@ -5,6 +5,7 @@
  * @s: string to count
  * Return: length of string
  */
+int _strlen_recursion(char *);
 
 int main(void)
 {
