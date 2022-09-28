@@ -1,5 +1,7 @@
-//#include "main.h"
-#include<stdio.h>
+#include "main.h"
+#include <stdio.h>
+
+
 /**
  * _puts_recursion - uses recursion
  * @s: string to recurse through
@@ -18,8 +20,6 @@ int main (void)
 	
 
 	_puts_recursion("Puts with recursion \n");
-	
-	putchar ('\n');
 	
 	return (0);
 }
