@@ -11,8 +11,3 @@ void _print_rev_recursion(char *s)
 		_print_rev_recursion(s + 1);
 	}
 }
-int main(void)
-{
-	_print_rev_recursion("\nFirst, solve the problem. Then, write the code");
-	return (0);
-}
