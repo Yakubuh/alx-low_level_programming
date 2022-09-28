@@ -11,7 +11,7 @@ int main (void)
 
 	_puts_recursion("Puts with recursion \n");
 	
-	//_putchar('\n');
+	_putchar('\n');
 	
 	return (0);
 }
