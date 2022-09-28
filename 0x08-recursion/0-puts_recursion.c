@@ -17,9 +17,9 @@ void _puts_recursion(char *s)
 
 int main (void)
 {
-	
 
-	_puts_recursion(" You mustn't be afraid to dream a little bigger, darling. \n");
+
+	_puts_recursion("First, solve the problem. Then, write the code \n");
 	
 	return (0);
 }
