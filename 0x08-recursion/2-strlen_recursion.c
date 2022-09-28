@@ -7,6 +7,11 @@
  *
  * Return: Always 0.
  */
+
+ int _strlen_recursion(char *s){
+
+ return strlen(s);
+ }
  
 
 int main(void)
