@@ -4,6 +4,13 @@
  * @s: string to recurse through
  */
 
+void _puts_recursion(char *s)
+ {
+
+
+ printf("%s", s);
+
+ }
 
 int main (void)
 {
