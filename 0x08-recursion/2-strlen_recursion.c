@@ -1,17 +1,13 @@
 #include <stdio.h>
 #include <string.h>
+#include "main.h"
 
 /**
  * main - check the code
  *
  * Return: Always 0.
  */
- int _strlen_recursion(char *s){
-
- return strlen(s);
-
-
- }
+ 
 
 int main(void)
 {
