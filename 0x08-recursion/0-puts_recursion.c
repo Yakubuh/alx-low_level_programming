@@ -18,7 +18,8 @@ int main (void)
 	
 
 	_puts_recursion("Puts with recursion \n");
-	printf ("\n");
+	
+	putchar ("\n");
 	
 	return (0);
 }
