@@ -19,7 +19,7 @@ int main (void)
 {
 	
 
-	_puts_recursion("Puts with recursion \n");
+	_puts_recursion(" You mustn't be afraid to dream a little bigger, darling. \n");
 	
 	return (0);
 }
