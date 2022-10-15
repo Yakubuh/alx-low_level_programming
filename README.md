@@ -4,7 +4,8 @@ Introduction to programming and first set of assignments at ALX School
 
 **What you should learn from this project**
 
-    At the end of this project you are expected to be able to explain to anyone, without the help of Google:
+    At the end of this project you are expected to be able to explain
+    to anyone, without the help of Google:
 
 * Why C programming is awesome (don’t forget to tweet today, with the hashtag #cisfun :))
 * Who invented C
@@ -22,7 +23,7 @@ Introduction to programming and first set of assignments at ALX School
 
 ### Trial questions
 
-[0-preprocessor](./0-preprocessor)
+0-preprocessor
 ```
 Write a script that runs a C file through the preprocessor
 and save the result into another file.
