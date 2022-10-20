@@ -2,19 +2,20 @@
 #include <stdlib.h>
 #include "lists.h"
 /**
- * list_len - length of list_t struct
- * @h: head node
- * Return: number of elements
+ * list_len - returns then number of elements in a list.
+ * @h: singly linked list.
+ * Return: number of elements in the list.
  */
+
 size_t list_len(const list_t *h)
 {
-	int count = 0;
+    size_t nelem;
 
-	while (h != NULL)
-	{
-		count++;
-		h = h->next;
-	}
-
-	return (count);
+    nelem = 0;
+    while (h != NULL)
+    {
+        h = h->next;
+        nelem++;
+    }
+    return (nelem);
 }
